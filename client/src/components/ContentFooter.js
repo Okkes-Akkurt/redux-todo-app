@@ -20,7 +20,7 @@ const ContentFooter = () => {
 			<ul className='filters'>
 				<li>
 					<a
-						href='#/'
+						href='/'
 						className={activeFilter === 'all' ? 'selected' : ''}
 						onClick={() => dispatch(changeActiveFilter('all'))}>
 						All
@@ -28,7 +28,7 @@ const ContentFooter = () => {
 				</li>
 				<li>
 					<a
-						href='#/'
+						href='/#'
 						className={activeFilter === 'active' ? 'selected' : ''}
 						onClick={() => dispatch(changeActiveFilter('active'))}>
 						Active
@@ -36,7 +36,7 @@ const ContentFooter = () => {
 				</li>
 				<li>
 					<a
-						href='#/'
+						href='/#'
 						className={activeFilter === 'completed' ? 'selected' : ''}
 						onClick={() => dispatch(changeActiveFilter('completed'))}>
 						Completed
